@@ -5,20 +5,20 @@
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
+      "name": "Services",
+      "url": "/services"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "About Us",
+      "url": "/about"
+    },
+    {
+      "name": "Investors",
+      "url": "/investors"
     },
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
     }
   ],
   "footer": [
@@ -26,29 +26,37 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "About Us",
+          "url": "/about"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
+          "text": "Our Mission",
+          "url": "/about#mission"
+        },
+        {
+          "text": "Our Vision",
+          "url": "/about#vision"
+        },
+        {
+          "text": "Core Values",
+          "url": "/about#values"
         }
       ]
     },
     {
-      "name": "Product",
+      "name": "Services",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "text": "Consulting",
+          "url": "/services#consulting"
         },
         {
-          "text": "Platform",
-          "url": "#"
+          "text": "Field Services",
+          "url": "/services#field-services"
         },
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Innovation",
+          "url": "/services#innovation"
         }
       ]
     },
@@ -61,11 +69,28 @@
         },
         {
           "text": "Privacy Policy",
-          "url": "#"
+          "url": "/privacy-policy"
         },
         {
           "text": "Terms & Conditions",
-          "url": "#"
+          "url": "/terms-and-conditions"
+        }
+      ]
+    },
+    {
+      "name": "Investors",
+      "menu": [
+        {
+          "text": "Investor Information",
+          "url": "/investors"
+        },
+        {
+          "text": "Financial Reports",
+          "url": "/investors#financial-reports"
+        },
+        {
+          "text": "Corporate Governance",
+          "url": "/investors#corporate-governance"
         }
       ]
     }
