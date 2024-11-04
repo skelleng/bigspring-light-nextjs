@@ -28,8 +28,6 @@ const RegularPages = async ({ params }) => {
         <NotFound data={regularPageData} />
       ) : layout === "contact" ? (
         <Contact data={regularPageData} />
-      ) : layout === "pricing" ? (
-        <Pricing data={regularPageData} />
       ) : layout === "faq" ? (
         <Faq data={regularPageData} />
       ) : (
